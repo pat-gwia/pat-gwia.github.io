@@ -1,0 +1,156 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: futura pt, sans-serif;
+    color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: block;
+  height: 50px;
+  color: #333;
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.subtitle {
+    display: block;
+    height: 50px;
+    color: #333;
+    margin-left: 20px;
+    margin-top:40px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff;           /* White text */
+    text-align: center;    /* Center-align text */
+    padding: 15px 0;       /* Add vertical spacing */
+      /* Fix footer to the bottom of the viewport */
+    width: 100%;           /* Make footer full-width */
+    bottom: 0; 
+  }
+  
+  .footer a {
+    color: #ffffff;        /* Light blue for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;     /* Make links bold */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .top-right-buttons {
+    position: absolute; /* Keep buttons positioned relative to the viewport or parent */
+    top: 20px; /* Distance from the top of the page */
+    right: 20px; /* Distance from the right edge of the page */
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    z-index: 999; /* Ensure buttons stay on top of other content */
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #007bff00; /* Button background color */
+    color: #333; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #333; /* Darker blue on hover */
+    color: white;
+  }
+  
+  
+  .intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 40vw;
+    height: auto;
+    justify-content: center;
+    margin: 0px 0;
+}
+
+.intro p {
+    max-width: 850px;
+    margin: 0 auto 10px;
+    font-size: 16px;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: center;
+    height: 95vh;
+    margin-top: 100px;
+}
+
+.column {
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    height: 90vh;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.scrollable {
+    height: 85vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+}
+
+.scrollable a {
+    display: block;
+    text-align: center;
+}
+
+.scrollable img {
+    width: 90%;
+    height: auto;
+}

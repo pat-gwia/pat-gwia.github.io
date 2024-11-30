@@ -1,0 +1,166 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: futura pt, sans-serif;
+}
+
+.header {
+    display: block;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: #333;
+    font-size: 40px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 80vh;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .text-block {
+    max-width: 600px;
+  }
+  
+  .text-block h1 {
+    font-size: 50px;
+    margin: 0 0 10px;
+    margin-left: 50px;
+    color: #333;
+  }
+  
+  .text-block p {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 0;
+    margin-left: 50px;
+    line-height: 1.6;
+  }
+
+  
+  .linkedin-link {
+    color: #333; /* LinkedIn blue color */
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+  
+  .linkedin-link i {
+    font-size: 24px; /* Adjust size */
+    transition: color 0.3s;
+  }
+  
+  .linkedin-link:hover i {
+    opacity: 50%; /* Darker LinkedIn blue for hover effect */
+  }
+
+/* Footer */
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff;           /* White text */
+    text-align: center;    /* Center-align text */
+    padding: 15px 0;       /* Add vertical spacing */
+    position: fixed;       /* Fix footer to the bottom of the viewport */
+    width: 100%;           /* Make footer full-width */
+    bottom: 0; 
+}
+
+.footer a {
+    color: #ffffff;        /* Light blue for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;     /* Make links bold */
+  }
+
+  .footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .top-right-buttons {
+    position: absolute; /* Keep buttons positioned relative to the viewport or parent */
+    top: 20px; /* Distance from the top of the page */
+    right: 20px; /* Distance from the right edge of the page */
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    z-index: 999; /* Ensure buttons stay on top of other content */
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #007bff00; /* Button background color */
+    color: #333; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #333; /* Darker blue on hover */
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    /* Header font size */
+    .header {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    /* Adjust container layout for mobile */
+    .container {
+        flex-direction: column; /* Stack profile image and text block */
+        height: auto; /* Allow container to adjust height based on content */
+        padding: 10px;
+    }
+
+    /* Profile image */
+    .profile-image {
+        width: 200px; /* Smaller profile image */
+        margin-right: 0;
+        margin-bottom: 15px; /* Space between image and text */
+    }
+
+    /* Adjust text-block styles */
+    .text-block h1 {
+        font-size: 30px; /* Smaller header font */
+        margin-left: 0;
+        text-align: center; /* Center-align the heading */
+    }
+
+    .text-block p {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center; /* Center-align the text */
+    }
+
+    /* LinkedIn link */
+    .linkedin-link {
+        margin-left: 0;
+        display: block;
+        text-align: center; /* Center the LinkedIn link */
+    }
+  }
