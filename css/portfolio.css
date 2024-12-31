@@ -158,37 +158,77 @@ body, html {
   color: white;
 }
 
-@media (max-width: 600px) {
-    /* Header Styling */
+@media (max-width: 1024px) {
     .header {
-        font-size: 24px; /* Smaller font size for mobile */
-        margin-top: 10px;
+        font-size: 30px; /* Adjust header font size */
+        margin-top: 40px; /* Reduce top margin */
     }
 
-    /* Slideshow Container */
     .slideshow-container {
-        width: 100%; /* Ensure the slideshow takes full width */
-        padding: 0; /* Remove unnecessary padding */
-    }
-
-    /* Carousel Image Adjustments */
-    .mySlides img {
-        width: 100%; /* Ensure images fill the container */
-        height: auto;
+        width: 90%; /* Reduce slideshow width */
+        margin-top: 20px; /* Reduce top margin */
     }
 
     .prev, .next {
-        font-size: 14px; /* Even smaller font size for mobile */
-        padding: 12px; /* Reduce button padding */
+        font-size: 16px; /* Reduce font size of prev/next buttons */
+        padding: 14px; /* Reduce button padding */
     }
 
     .text {
-        font-size: 12px; /* Reduce text size for captions */
-        padding: 5px 10px; /* Adjust padding */
+        font-size: 14px; /* Adjust caption text font size */
     }
 
-    .dot {
-        height: 10px; /* Smaller dots */
-        width: 10px;
+    .footer {
+        padding: 10px 0; /* Adjust footer padding */
+        font-size: 14px; /* Adjust footer font size */
+    }
+
+    .top-right-buttons {
+        top: 15px; /* Adjust button positioning */
+        right: 15px; /* Adjust button positioning */
+        gap: 15px; /* Reduce gap between buttons */
+    }
+
+    .button {
+        font-size: 18px; /* Reduce button text size */
+        padding: 8px 12px; /* Reduce button padding */
+    }
+}
+
+/* For screens 600px and smaller (mobile devices) */
+@media (max-width: 600px) {
+    .header {
+        font-size: 24px; /* Further reduce header font size */
+        margin-top: 20px; /* Further reduce top margin */
+    }
+
+    .slideshow-container {
+        width: 100%; /* Make slideshow full width */
+        margin-top: 10px; /* Further reduce top margin */
+    }
+
+    .prev, .next {
+        font-size: 14px; /* Further reduce prev/next buttons' font size */
+        padding: 12px; /* Further reduce button padding */
+    }
+
+    .text {
+        font-size: 12px; /* Reduce caption text size */
+    }
+
+    .footer {
+        padding: 8px 0; /* Further reduce footer padding */
+        font-size: 12px; /* Further reduce footer font size */
+    }
+
+    .top-right-buttons {
+        top: 10px; /* Adjust button positioning for small screens */
+        right: 10px; /* Adjust button positioning for small screens */
+        gap: 10px; /* Further reduce gap between buttons */
+    }
+
+    .button {
+        font-size: 16px; /* Further reduce button font size */
+        padding: 6px 10px; /* Further reduce button padding */
     }
 }
