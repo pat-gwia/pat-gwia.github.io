@@ -197,6 +197,16 @@ h2 {
         width: 400px; /* Reduce logo size */
         left: 10px;
     }
+    .top-right-buttons {
+        top: 15px; /* Adjust button positioning */
+        right: 15px; /* Adjust button positioning */
+        gap: 15px; /* Reduce gap between buttons */
+    }
+
+    .button {
+        font-size: 18px; /* Reduce button text size */
+        padding: 8px 12px; /* Reduce button padding */
+    }
 }
 
 /* Media Query for Mobile Devices (≤ 600px) */
@@ -236,8 +246,14 @@ h2 {
     }
 
     /* Button styling for small screens */
+    .top-right-buttons {
+        top: 10px; /* Adjust button positioning for small screens */
+        right: 10px; /* Adjust button positioning for small screens */
+        gap: 10px; /* Further reduce gap between buttons */
+    }
+
     .button {
-        font-size: 16px; /* Reduce font size */
-        padding: 6px 10px; /* Adjust padding */
+        font-size: 16px; /* Further reduce button font size */
+        padding: 6px 10px; /* Further reduce button padding */
     }
 }
