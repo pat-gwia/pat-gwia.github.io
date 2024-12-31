@@ -175,7 +175,9 @@ h2 {
 
     .column {
         width: 100%;  /* Full width of the screen */
-        height: auto; /* Let the height adjust based on content */
+        height: 400px; /* Set a fixed height for scrollable columns */
+        overflow-y: auto;  /* Enable vertical scrolling */
+        padding: 10px; /* Optional: add padding for better layout */
     }
 
     .scrollable {
@@ -215,7 +217,9 @@ h2 {
 
     .column {
         width: 100%;  /* Full width of the screen */
-        height: auto; /* Allow content to adjust */
+        height: 300px; /* Set a fixed height for scrollable columns on small screens */
+        overflow-y: auto;  /* Enable vertical scrolling */
+        padding: 8px; /* Optional: add padding for better layout */
     }
 
     .scrollable {
