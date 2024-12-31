@@ -183,14 +183,14 @@ h2 {
     }
 
     .top-right-buttons {
-        top: 15px;
-        right: 15px;
-        gap: 15px;  /* Slightly smaller gap between buttons */
+        top: 15px; /* Adjust button positioning */
+        right: 15px; /* Adjust button positioning */
+        gap: 15px; /* Reduce gap between buttons */
     }
 
     .button {
-        font-size: 18px; /* Adjust button font size */
-        padding: 8px 12px; /* Smaller padding */
+        font-size: 18px; /* Reduce button text size */
+        padding: 8px 12px; /* Reduce button padding */
     }
 }
 
@@ -223,14 +223,13 @@ h2 {
     }
 
     .top-right-buttons {
-        top: 10px;
-        right: 10px;
-        gap: 10px;  /* More compact buttons */
+        top: 10px; /* Adjust button positioning for small screens */
+        right: 10px; /* Adjust button positioning for small screens */
+        gap: 10px; /* Further reduce gap between buttons */
     }
 
     .button {
-        font-size: 16px; /* Smaller font size for buttons */
-        padding: 6px 10px; /* Smaller padding */
+        font-size: 16px; /* Further reduce button font size */
+        padding: 6px 10px; /* Further reduce button padding */
     }
 }
-
