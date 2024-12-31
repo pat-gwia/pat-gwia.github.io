@@ -160,3 +160,82 @@ h2 {
   .footer a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
+
+@media (max-width: 1024px) {
+
+    /* Main Content Section */
+    #content {
+        flex-direction: column; /* Stack columns vertically */
+        margin-top: 50px;
+    }
+
+    /* Container Adjustments */
+    .container {
+        flex-direction: column; /* Stack the columns vertically */
+        height: auto;
+    }
+
+    .column {
+        width: 80%; /* Make each column wider */
+        margin-bottom: 20px; /* Add space between columns */
+    }
+
+    /* Image adjustments for smaller screen sizes */
+    .scrollable img {
+        width: 100%; /* Make images fill the column */
+    }
+
+    /* Slideshow Adjustments */
+    .slideshow {
+        height: 60vh; /* Make the slideshow take up less space */
+    }
+
+    /* Logo adjustment for smaller screens */
+    .logo img {
+        width: 400px; /* Reduce logo size */
+        left: 10px;
+    }
+}
+
+/* Media Query for Mobile Devices (≤ 600px) */
+@media (max-width: 600px) {
+
+    /* Main Content Section */
+    #content {
+        flex-direction: column; /* Stack columns vertically */
+        margin-top: 40px;
+    }
+
+    .container {
+        flex-direction: column; /* Stack the columns vertically */
+        height: auto;
+    }
+
+    .column {
+        width: 100%; /* Make columns full width */
+        margin-bottom: 20px; /* Add space between columns */
+    }
+
+    /* Adjust slideshow height for mobile screens */
+    .slideshow {
+        height: 50vh; /* Reduce slideshow height */
+    }
+
+    /* Adjust images in columns for mobile screens */
+    .scrollable img {
+        width: 100%; /* Make images fill the column */
+        height: auto;
+    }
+
+    /* Logo adjustment for small screens */
+    .logo img {
+        width: 250px; /* Make logo smaller */
+        left: 10px;
+    }
+
+    /* Button styling for small screens */
+    .button {
+        font-size: 16px; /* Reduce font size */
+        padding: 8px 12px; /* Adjust padding */
+    }
+}
