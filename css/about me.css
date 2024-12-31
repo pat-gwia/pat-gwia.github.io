@@ -122,4 +122,83 @@ body, html {
     background-color: #333; /* Darker blue on hover */
     color: white;
   }
+@media (max-width: 1024px) {
+    .header {
+        font-size: 30px; /* Adjust header font size */
+        margin-top: 40px; /* Reduce margin at the top */
+    }
 
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height for smaller screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .profile-image {
+        width: 250px; /* Adjust image size */
+        margin-right: 10px; /* Reduce spacing between image and text */
+    }
+
+    .text-block h1 {
+        font-size: 35px; /* Reduce font size */
+        margin-left: 20px; /* Adjust margin */
+    }
+
+    .text-block p {
+        font-size: 16px; /* Increase font size slightly for readability */
+        margin-left: 20px; /* Adjust margin */
+    }
+
+    .linkedin-link {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+}
+
+/* For 600px and smaller screens (mobile devices) */
+@media (max-width: 600px) {
+    .header {
+        font-size: 24px; /* Further reduce font size for smaller screens */
+        margin-top: 30px; /* Reduce top margin */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height for smaller screens */
+        padding: 5px; /* Further reduce padding */
+    }
+
+    .profile-image {
+        width: 200px; /* Further reduce image size */
+        margin-right: 0; /* Remove margin for a tighter layout */
+    }
+
+    .text-block h1 {
+        font-size: 28px; /* Further reduce font size */
+        margin-left: 10px; /* Reduce left margin */
+    }
+
+    .text-block p {
+        font-size: 14px; /* Adjust font size for better readability */
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    .linkedin-link {
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    .top-right-buttons {
+        top: 10px; /* Adjust button position */
+        right: 10px; /* Adjust button position */
+        gap: 10px; /* Reduce space between buttons */
+    }
+
+    .button {
+        font-size: 16px; /* Reduce button font size */
+        padding: 8px 12px; /* Reduce padding */
+    }
+
+    .footer {
+        font-size: 14px; /* Reduce font size for footer */
+        padding: 10px 0; /* Adjust padding */
+    }
+}
