@@ -152,7 +152,7 @@ body, html {
   padding: 10px 15px; /* Padding inside the button */
   border-radius: 5px; /* Rounded corners */
   font-size: 20px; /* Text size */
-  font-weight: bold; /* Bold text */
+  font-weight: bold;
   transition: background-color 0.3s; /* Smooth hover effect */
 }
 
