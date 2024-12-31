@@ -1,9 +1,11 @@
 /* Global styles */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: futura pt, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 * {
