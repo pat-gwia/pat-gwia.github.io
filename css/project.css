@@ -155,7 +155,6 @@ h2 {
     height: auto;
 }
 
-@media (max-width: 600px) {
 @media (max-width: 1024px) {
     .header, .subtitle {
         font-size: 32px;  /* Smaller text for header and subtitle */
