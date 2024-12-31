@@ -156,32 +156,82 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    .header {
-        font-size: 24px;
-        margin-top: 30px;
+@media (max-width: 1024px) {
+    .header, .subtitle {
+        font-size: 32px;  /* Smaller text for header and subtitle */
     }
 
     .intro img {
-        max-width: 90vw; /* Further scale down image for mobile */
+        max-width: 60vw;  /* Adjust the image size */
     }
 
-    .subtitle {
-        font-size: 12px;
+    .intro p {
+        font-size: 15px;  /* Slightly smaller text */
     }
 
-    .footer {
-        font-size: 12px;
-        padding: 8px 0;
+    .container {
+        flex-direction: column;  /* Stack columns vertically */
+        gap: 30px; /* Space between columns */
+    }
+
+    .column {
+        width: 100%;  /* Full width of the screen */
+        height: auto; /* Let the height adjust based on content */
+    }
+
+    .scrollable {
+        height: auto;  /* Adjust height dynamically */
+    }
+
+    .top-right-buttons {
+        top: 15px;
+        right: 15px;
+        gap: 15px;  /* Slightly smaller gap between buttons */
+    }
+
+    .button {
+        font-size: 18px; /* Adjust button font size */
+        padding: 8px 12px; /* Smaller padding */
+    }
+}
+
+/* For devices up to 600px (small tablets and phones) */
+@media (max-width: 600px) {
+    .header, .subtitle {
+        font-size: 24px;  /* Even smaller text */
+    }
+
+    .intro img {
+        max-width: 80vw;  /* Larger image width on smaller screens */
+    }
+
+    .intro p {
+        font-size: 14px;  /* Smaller text for better readability */
+    }
+
+    .container {
+        flex-direction: column;  /* Stack columns vertically */
+        gap: 20px; /* Smaller gap between columns */
+    }
+
+    .column {
+        width: 100%;  /* Full width of the screen */
+        height: auto; /* Allow content to adjust */
+    }
+
+    .scrollable {
+        height: auto;  /* Dynamic height adjustment */
     }
 
     .top-right-buttons {
         top: 10px;
         right: 10px;
-        gap: 10px; /* Smaller space between buttons */
+        gap: 10px;  /* More compact buttons */
     }
 
     .button {
-        font-size: 16px;
-        padding: 6px 10px;
+        font-size: 16px; /* Smaller font size for buttons */
+        padding: 6px 10px; /* Smaller padding */
     }
 }
+
