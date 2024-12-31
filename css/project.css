@@ -156,8 +156,12 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-    .header, .subtitle {
+    .header {
         font-size: 32px;  /* Smaller text for header and subtitle */
+    }
+
+    .subtitle {
+        font-size: 14px;  /* Smaller text for header and subtitle */
     }
 
     .intro img {
@@ -198,8 +202,12 @@ h2 {
 
 /* For devices up to 600px (small tablets and phones) */
 @media (max-width: 600px) {
-    .header, .subtitle {
-        font-size: 24px;  /* Even smaller text */
+        .header {
+        font-size: 24px;  /* Smaller text for header and subtitle */
+    }
+
+    .subtitle {
+        font-size: 12px;  /* Smaller text for header and subtitle */
     }
 
     .intro img {
