@@ -189,7 +189,7 @@ h2 {
 
     /* Slideshow Adjustments */
     .slideshow {
-        height: 60vh; /* Make the slideshow take up less space */
+        height: 100vh; /* Make the slideshow take up less space */
     }
 
     /* Logo adjustment for smaller screens */
@@ -230,7 +230,7 @@ h2 {
 
     /* Adjust slideshow height for mobile screens */
     .slideshow {
-        height: 50vh; /* Reduce slideshow height */
+        height: 100vh; /* Reduce slideshow height */
     }
 
     /* Adjust images in columns for mobile screens */
