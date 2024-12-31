@@ -158,4 +158,37 @@ body, html {
   color: white;
 }
 
+@media (max-width: 600px) {
+    /* Header Styling */
+    .header {
+        font-size: 24px; /* Smaller font size for mobile */
+        margin-top: 10px;
+    }
 
+    /* Slideshow Container */
+    .slideshow-container {
+        width: 100%; /* Ensure the slideshow takes full width */
+        padding: 0; /* Remove unnecessary padding */
+    }
+
+    /* Carousel Image Adjustments */
+    .mySlides img {
+        width: 100%; /* Ensure images fill the container */
+        height: auto;
+    }
+
+    .prev, .next {
+        font-size: 14px; /* Even smaller font size for mobile */
+        padding: 12px; /* Reduce button padding */
+    }
+
+    .text {
+        font-size: 12px; /* Reduce text size for captions */
+        padding: 5px 10px; /* Adjust padding */
+    }
+
+    .dot {
+        height: 10px; /* Smaller dots */
+        width: 10px;
+    }
+}
